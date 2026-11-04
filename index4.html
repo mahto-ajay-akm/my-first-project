@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Expensive Form-Level</title>
+</head>
+<body>
+
+    <h2>Add New Expenses</h2>
+    <form>
+        <label>Full Name:</label>
+        <input type="text" placeholder="Enter Your Name"><br><br>
+        <label>Expenses Amount:</label>
+        <input type="number" placeholder="Enter Expenses Amount"><br><br>
+        <label>Expenses Description:</label>
+        <input type="text" placeholder="Enter Description"><br><br>
+        <label>Expenses Date:</label>
+        <input type="date"><br><br>
+        <label for="expenses category">Expenses Category:</label>
+        <select name="category" id="category">
+            <option value="food">Food</option>
+            <option value="travel">Travel</option>
+            <option value="shopping">Shopping</option>
+            <option value="education">Education</option>
+            <option value="bills">Bills</option>
+            <option value="other">other</option>
+        </select><br><br>
+        <label for="payment method">Payment Method:</label>
+        <select name="payment" id="payment">
+            <option value="cash">Cash</option>
+            <option value="upi">UPI</option>
+            <option value="credit-card">Credit Card</option>
+            <option value="debit-card">Debit-Card</option>
+            <option value="net-banking">Net Banking</option>
+        </select><br><br>
+        <label for="notes">Additional Notes:</label><br>
+
+        <textarea name="notes" id="notes" rows="6" cols="30" placeholder="Enter Your Notes"></textarea><br><br>
+        <button>Submit Expenses</button>
+
+    </form>
+
+    
+</body>
+</html>
